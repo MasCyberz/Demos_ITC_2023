@@ -115,6 +115,10 @@ body {
     height: 150px;
 }
 
+.c-guru .carousel-item .box img{
+    height: 150px;
+}
+
 .c-guru .text {
     margin: auto 20px;
 
