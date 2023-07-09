@@ -341,6 +341,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 99;
+    transition: opacity 2s, visibility 2s;
 }
 
 
