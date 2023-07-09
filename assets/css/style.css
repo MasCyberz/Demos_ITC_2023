@@ -470,6 +470,10 @@ body {
         width: 50%;
         margin-bottom: 50px;
     }
+
+    #preloader{
+        background-size: 70%;
+    }
 }
 
 @media screen and (max-width: 1280px){
