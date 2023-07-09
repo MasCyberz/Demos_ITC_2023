@@ -24,3 +24,21 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+// // Loader
+
+// window.addEventListener("load", () =>{
+//   const loader = document.querySelector(".loader");
+
+//   loader.classList.add("loader-hidden");
+
+//   loader.addEventListener("transitioned", () =>{
+//     document.body.removeChild("loader");
+//   })
+// })
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+})
